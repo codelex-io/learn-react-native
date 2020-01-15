@@ -14,7 +14,6 @@
 📄📄📄
 
 -   [Function and Class Components @reactjs.org](https://reactjs.org/docs/components-and-props.html#function-and-class-components)
-
 -   [How Are Function Components Different from Classes? @overreacted.io](https://overreacted.io/how-are-function-components-different-from-classes/)
 
 🚧🚧🚧
@@ -26,7 +25,6 @@ Create a _Hello World!_ component using a function and using a class.
 📄📄📄
 
 -   [Component and Props @reactjs.org](https://reactjs.org/docs/components-and-props.html)
-
 -   [Props @facebook.github.io/react-native](https://facebook.github.io/react-native/docs/props)
 
 🚧🚧🚧
@@ -40,7 +38,6 @@ Let's write down some of the skills you know (up to five) in an app main view. E
 📄📄📄
 
 -   [State and Lifecycle @reactjs.org](https://reactjs.org/docs/state-and-lifecycle.html)
-
 -   [State @facebook.github.io/react-native](https://facebook.github.io/react-native/docs/state)
 
 🚧🚧🚧
@@ -60,11 +57,8 @@ Is it possible to leave _Skill_ component stateless but lift up to _App_ compone
 📄📄📄
 
 -   [Style @facebook.github.io/react-native](https://facebook.github.io/react-native/docs/style)
-
 -   [Applying Basic Styles in React Native @egghead.io](https://egghead.io/lessons/react-applying-basic-styles-in-react-native)
-
 -   [Style Components with StyleSheet @egghead.io](https://egghead.io/lessons/react-native-style-components-in-a-react-native-app-with-stylesheet)
-
 -   [Using Styled Components with React Native @levelup.gitconnected.com](https://levelup.gitconnected.com/using-styled-components-with-react-native-de645fcf4787)
 
 Why do we need to use _StyleSheet_? It is immutable, and fails if we will try to use non-existing property or pass wrong value to any of the properties.
@@ -95,7 +89,6 @@ Make title to consume 25% of the screen height, do that using fixed dimensions a
 📄📄📄
 
 -   [Layout with Flexbox @facebook.github.io/react-native](https://facebook.github.io/react-native/docs/flexbox)
-
 -   [Flex Direction @yogalayout.com](https://yogalayout.com/docs/flex-direction)
 
 🚧🚧🚧
@@ -105,7 +98,6 @@ Let's just recreate an examples from the documentation [here](https://facebook.g
 ## ScrollView / List Views
 
 -   [Using a ScrollView @facebook.github.io/react-native](https://facebook.github.io/react-native/docs/using-a-scrollview)
-
 -   [Using List Views @facebook.github.io/react-native](https://facebook.github.io/react-native/docs/using-a-listview)
 
 🚧🚧🚧
@@ -143,7 +135,72 @@ Complete as much screens as you can for our E-Commerce App.
 
 # Day Two
 
-In Progress ⌛
+## Adding SVG
+
+📄📄📄
+
+WTF is SVG? Basically it is an image which consists of vectors, in simpler words - just points and lines. When using SVG we can scale images endlessly without loosing quality.
+
+- [Scalable Vector Graphics @wikipedia.org](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics)
+- [SVG Tutorial @w3schools.com](https://www.w3schools.com/graphics/svg_intro.asp)
+- [SVG: Scalable Vector Graphics @developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/SVG)
+
+🚧🚧🚧
+
+React-Native does not support SVG by default, but there are a library from the `react-native-community` for that - [react-native-svg](https://github.com/react-native-community/react-native-svg).
+
+Using SVG draw:
+
+ - few geometric figures using provided components
+ - try to draw an examples found in [assets](./src/assets)
+ - draw svg using file from the internet
+
+## Images
+
+📄📄📄
+
+There is a separate section about the images in the documentation - [Images @facebook.github.io](https://facebook.github.io/react-native/docs/images).
+
+- there is a special image handling for different screen densities
+
+As mentioned already, images work very similary to `img` tag in html. Note a few differences, as stated in the - documentation - [Image @facebook.github.io](https://facebook.github.io/react-native/docs/image)
+
+- you must manually specify width & height for the network images
+- GIF & WebP does not work by default on Android
+
+🚧🚧🚧
+
+- draw icons found in [icons](./src/assets/icons) and note that quality does not suffer using png
+- draw some random network images
+- can you set an image as a background?
+- what is [prefetch](https://facebook.github.io/react-native/docs/image#prefetch)?
+
+## Gradient
+
+📄📄📄
+
+![Gradient](./assets/gradient.gif)
+
+Unfortunately gradient does not work by default as well, there is yet another library from the `react-native-community` - [react-native-linear-gradient](https://github.com/react-native-community/react-native-linear-gradient)
+
+🚧🚧🚧
+
+We have a button in our *E-Commerce App* designs, try adding some gradient to it.
+
+## Navigation
+
+📄📄📄
+
+One of the most complex parts in the mobile development is navigation. [Documentation @facebook.github.io](https://facebook.github.io/react-native/docs/navigation) suggests that you should use [React Navigation](https://reactnavigation.org/docs/en/getting-started.html).
+
+There is one thing about [React Navigation](https://reactnavigation.org/docs/en/getting-started.html) - **YOU MUST READ THE DOCUMENTATION** to fully understand what you are doing.
+
+🚧🚧🚧
+
+- take a look at the guides:
+    - [Tab Based Navigation](https://reactnavigation.org/docs/en/tab-based-navigation.html)
+    - [Drawer Based Navigation](https://reactnavigation.org/docs/en/drawer-based-navigation.html)
+    - [Type checking with TypeScript](https://reactnavigation.org/docs/en/typescript.html)
 
 # Day Three
 
