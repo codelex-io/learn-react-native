@@ -197,10 +197,16 @@ There is one thing about [React Navigation](https://reactnavigation.org/docs/en/
 
 🚧🚧🚧
 
-- take a look at the guides:
-    - [Tab Based Navigation](https://reactnavigation.org/docs/en/tab-based-navigation.html)
-    - [Drawer Based Navigation](https://reactnavigation.org/docs/en/drawer-based-navigation.html)
+- take a look at the guides, especially:
+    - [Navigating](https://reactnavigation.org/docs/en/navigating.html)
+    - [Passing parameters to routes](https://reactnavigation.org/docs/en/params.html)
+    - [Tab navigation](https://reactnavigation.org/docs/en/tab-based-navigation.html)
+    - [Drawer navigation](https://reactnavigation.org/docs/en/drawer-based-navigation.html)
     - [Type checking with TypeScript](https://reactnavigation.org/docs/en/typescript.html)
+
+There are examples, which can be viewed on your phone using [Expo App](https://expo.io/tools).
+
+When you think that you understand how it works, apply the knowledge to our *E-Commerce App*.
 
 # Day Three
 
