@@ -208,6 +208,17 @@ There are examples, which can be viewed on your phone using [Expo App](https://e
 
 When you think that you understand how it works, apply the knowledge to our *E-Commerce App*.
 
+# Day Two - Home Assignment
+
+- Go through the [React Navigation documentation](https://reactnavigation.org/docs/en/getting-started.html) at your own pace
+- Complete navigation flow for our app as much as possible
+- Get familiar with GraphQL, basic knowledge will be required:
+    - [GraphQL Crash Course (in 10 pics!) @dev.to](https://dev.to/methodcoder/graphql-crash-course-in-10-pics-3b04)
+    - [Introduction to GraphQL @graphql.org](https://graphql.org/learn)
+    - [The Fullstack Tutorial for GraphQL @howtographql.com](https://www.howtographql.com)
+    - [GraphQL Playground @graphqlbin.com](https://www.graphqlbin.com/v2/6RQ6TM) taken from [GraphQL Playground @github.com/prisma-labs](https://github.com/prisma-labs/graphql-playground)
+- Not enough? Continue with an application screen from the day one!
+
 # Day Three
 
 In Progress ⌛
