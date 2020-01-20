@@ -221,7 +221,58 @@ When you think that you understand how it works, apply the knowledge to our *E-C
 
 # Day Three
 
-In Progress ⌛
+## Fetching Data from the Internet
+
+📄📄📄
+
+Data fetching is pretty much the same as with plain old JavaScript, some documentation - [Ajax @developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX)
+
+🚧🚧🚧
+
+For the sake of the exercise we are going to use [GraphQL](https://graphql.org) together with a [GraphCMS (headless CMS)](https://graphcms.com).
+
+- In GraphCMS:
+    - create a new project
+    - create a `category` schema
+    - create a `shop item` schema
+    - add categories and items
+    - fetch data using graphql in the *API Explorer*
+    - expose query endpoint for a public use
+- In your app:
+    - add [React Apollo](https://www.apollographql.com) byt following [documentation @apollographql.com](https://www.apollographql.com/docs/react/integrations/react-native)
+    - query the data ✨
+
+## Adding an Authorization
+
+📄📄📄
+
+There are many solutions for an authorization:
+
+- [Auth0](https://auth0.com)
+- [AWS Cognito](https://aws.amazon.com/cognito), can be used with [AWS Amplify](https://aws.amazon.com/amplify) which has [React Native support](https://aws-amplify.github.io/docs/js/tutorials/building-react-native-apps)
+- Direct integration through official or community packages, for example [Facebook](https://developers.facebook.com/docs/react-native/login), [Instagram](https://www.npmjs.com/package/react-native-instagram-login) 
+- Or you can always build your authorization mechanism from scratch
+
+This time we are going to use [Auth0](https://auth0.com), there is a [tutorial available @auth0.com](https://auth0.com/docs/quickstart/native/react-native/00-login)
+
+🚧🚧🚧
+
+- Create an account at [Auth0](https://auth0.com), there is a free tier available
+- Add authorization to your application, by separating navigation stacks
+- Store information about the user and authorization state in [async-storage @github.com/react-native-community](https://github.com/react-native-community/async-storage)
+
+## Catching Bugs 🐞
+
+📄📄📄
+
+A matter of existential nature - how will you know if there was an exception on the customer device, and how are you going to find out the issue?
+
+There are tools for that, for example [bugsnag](https://www.bugsnag.com)
+
+🚧🚧🚧
+
+- Create an account at [bugsnag](https://www.bugsnag.com), there is a free tier available
+- Add integration by following the [React Native integration guide @https://docs.bugsnag.com](https://docs.bugsnag.com/platforms/react-native)
 
 # Life After Workshop
 
