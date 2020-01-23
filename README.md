@@ -1,5 +1,9 @@
 # Learn React Native
 
+# Getting Started
+
+If your computer is not very powerful, or you just want to get up and running faster, please refer to [expo boilerplate version of this workshop](https://github.com/codelex-io/learn-react-native-expo).
+
 # Useful Resources
 
 -   [React TypeScript Cheatsheet @github.com/typescript-cheatsheets](https://github.com/typescript-cheatsheets/react-typescript-cheatsheet)
